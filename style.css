@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+h2 {
   font-family: 'Overpass', sans-serif;
 }
 
@@ -41,6 +41,7 @@ header {
   width: 400px;
   text-align: center;
   left: calc(50% - 200px);
+  font-size: 2rem;
 }
 
 .main-articles {
