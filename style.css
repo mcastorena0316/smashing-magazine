@@ -15,7 +15,7 @@ header {
   display: flex;
   width: 100%;
   height: 180px;
-  background-color: rgb(67, 67, 67);
+  background-color: rgb(68, 68, 68);
 }
 
 .navbar {
@@ -30,6 +30,7 @@ header {
   flex-grow: 1;
   text-align: center;
   color: white;
+  font-size: 1.3rem;
 }
 
 /* Main */
@@ -55,37 +56,44 @@ header {
   height: 50%;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 }
 
 .main-articles-1 {
-  background-color: rgb(36, 35, 35);
+  background-color: rgb(172, 172, 172);
   text-align: center;
 }
 
 .main-articles-2 {
   background-color: rgb(180, 180, 180);
+  text-align: center;
 }
 
 .main-articles-3 {
-  background-color: rgb(112, 111, 111);
+  background-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .main-articles-4 {
-  background-color: rgb(138, 138, 138);
+  background-color: rgb(168, 168, 168);
+  text-align: center;
 }
 
 .happy-fox {
   height: 515px;
   width: 100%;
-  background-color: rgb(163, 59, 154);
+  background-color: rgb(53, 53, 53);
   display: flex;
   justify-content: center;
+  font-size: 1.2rem;
+  line-height: 30px;
 }
 
 .happy-fox p {
   width: 50%;
   height: 150px;
   align-self: center;
+  color: white;
 }
 
 .latest-post {
@@ -101,18 +109,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .latest-post-1 {
-  background-color: rgb(94, 96, 221);
+  background-color: rgb(196, 196, 196);
 }
 
 .latest-post-2 {
-  background-color: rgb(94, 221, 183);
+  background-color: rgb(202, 202, 202);
 }
 
 .latest-post-3 {
-  background-color: rgb(221, 94, 122);
+  background-color: rgb(228, 228, 228);
 }
 
 .chef-fox{
@@ -123,19 +132,31 @@ header {
 .chef-fox-2 {
   flex-grow: 2;
   height: 705px; 
-  background-color: rgb(238, 28, 28);
+  background-color: rgb(88, 88, 88);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 1.3rem;
 }
 
 .chef-fox-1 {
   flex-grow: 1;
   height: 257px;
-  background-color: rgb(22, 25, 240);
+  background-color: rgb(134, 134, 134);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.should-you {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(161, 161, 161);
 }
 
 .mail-fox{
@@ -144,13 +165,14 @@ header {
   justify-content: center;
   align-items: center;
   display:flex;
-  background-color: rgb(24, 224, 41);
+  background-color: rgb(83, 82, 82);
+  color: white;
 }
 
 .person {
   width: 100%;
   height: 360px;
-  background-color: rgb(229, 241, 238);
+  background-color: rgb(224, 224, 224);
 }
 
 .person article {
@@ -175,27 +197,27 @@ header {
 }
 
 .com-links-1 {
-  background-color: rgb(94, 96, 221);
+  background-color: rgb(206, 206, 206);
 }
 
 .com-links-2 {
-  background-color: rgb(177, 221, 94);
+  background-color: rgb(201, 201, 201);
 }
 
 .com-links-3 {
-  background-color: rgb(112, 113, 128);
+  background-color: rgb(197, 197, 197);
 }
 
 .com-links-4 {
-  background-color: rgb(221, 94, 221);
+  background-color: rgb(219, 219, 219);
 }
 
 .com-links-5 {
-  background-color: rgb(74, 213, 248);
+  background-color: rgb(212, 212, 212);
 }
 
 .com-links-6 {
-  background-color: rgb(228, 121, 33);
+  background-color: rgb(199, 199, 199);
 }
 
 .design {
@@ -203,13 +225,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(250, 20, 20);
+  background-color: rgb(134, 134, 134);
   height: 415px;
+  color: white;
 }
 
-footer {
-  background-color: rgb(177, 221, 94);
+.footer-section {
+  background-color: rgb(83, 83, 83);
   height: 685px;
   display: flex;
   justify-content: center;
+  color: white;
 }
