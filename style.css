@@ -73,3 +73,143 @@ header {
 .main-articles-4 {
   background-color: rgb(138, 138, 138);
 }
+
+.happy-fox {
+  height: 515px;
+  width: 100%;
+  background-color: rgb(163, 59, 154);
+  display: flex;
+  justify-content: center;
+}
+
+.happy-fox p {
+  width: 50%;
+  height: 150px;
+  align-self: center;
+}
+
+.latest-post {
+  display: flex;
+  width: 100%;
+  height: 615px;
+}
+
+.latest-post-1,
+.latest-post-2,
+.latest-post-3 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-post-1 {
+  background-color: rgb(94, 96, 221);
+}
+
+.latest-post-2 {
+  background-color: rgb(94, 221, 183);
+}
+
+.latest-post-3 {
+  background-color: rgb(221, 94, 122);
+}
+
+.chef-fox{
+  display:flex;
+  height: 705px;
+}
+
+.chef-fox-2 {
+  flex-grow: 2;
+  height: 705px; 
+  background-color: rgb(238, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef-fox-1 {
+  flex-grow: 1;
+  height: 257px;
+  background-color: rgb(22, 25, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail-fox{
+  height: 1020px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  background-color: rgb(24, 224, 41);
+}
+
+.person {
+  width: 100%;
+  height: 360px;
+  background-color: rgb(229, 241, 238);
+}
+
+.person article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.com-links {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.com-links article {
+  width: 50%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-links-1 {
+  background-color: rgb(94, 96, 221);
+}
+
+.com-links-2 {
+  background-color: rgb(177, 221, 94);
+}
+
+.com-links-3 {
+  background-color: rgb(112, 113, 128);
+}
+
+.com-links-4 {
+  background-color: rgb(221, 94, 221);
+}
+
+.com-links-5 {
+  background-color: rgb(74, 213, 248);
+}
+
+.com-links-6 {
+  background-color: rgb(228, 121, 33);
+}
+
+.design {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 20, 20);
+  height: 415px;
+}
+
+footer {
+  background-color: rgb(177, 221, 94);
+  height: 685px;
+  display: flex;
+  justify-content: center;
+}
