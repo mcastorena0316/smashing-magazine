@@ -233,8 +233,33 @@ header {
 
 .footer-section {
   background-color: rgb(83, 83, 83);
-  height: 685px;
+  width: 100%;
+  height: 585px;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
+  flex-direction: column;
+}
+
+.footer-section p {
+  height: 95px;
+}
+
+.footer-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1189px;
+}
+
+.first-list {
+  height: 250px;
+}
+
+.footer-section ul li {
+  flex-grow: 1;
+  padding: 0 20px;
+  display: inline-block;
+  font-size: 24px;
 }
