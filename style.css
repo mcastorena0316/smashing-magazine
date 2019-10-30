@@ -125,7 +125,7 @@ header {
   background-color: rgb(228, 228, 228);
 }
 
-.chef-fox{
+.chef-fox {
   display:flex;
   height: 705px;
 }
@@ -160,7 +160,7 @@ header {
   background-color: rgb(161, 161, 161);
 }
 
-.mail-fox{
+.mail-fox {
   height: 1020px;
   width: 100%;
   justify-content: center;
