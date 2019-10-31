@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+}
+
+/* Navigation */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background-color: rgb(68, 68, 68);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 965px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.navbar div {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* Main */
+
+.main-header {
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  left: calc(50% - 200px);
+  font-size: 2rem;
+}
+
+.main-articles {
+  display: flex;
+  width: 100%;
+  height: 1400px;
+  flex-wrap: wrap;
+}
+
+.main-articles article {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.main-articles-1 {
+  background-color: rgb(172, 172, 172);
+  text-align: center;
+}
+
+.main-articles-2 {
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+}
+
+.main-articles-3 {
+  background-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.main-articles-4 {
+  background-color: rgb(168, 168, 168);
+  text-align: center;
+}
+
+.happy-fox {
+  height: 515px;
+  width: 100%;
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.happy-fox p {
+  width: 50%;
+  height: 150px;
+  align-self: center;
+  color: white;
+}
+
+.latest-post {
+  display: flex;
+  width: 100%;
+  height: 615px;
+}
+
+.latest-post-1,
+.latest-post-2,
+.latest-post-3 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.latest-post-1 {
+  background-color: rgb(196, 196, 196);
+}
+
+.latest-post-2 {
+  background-color: rgb(202, 202, 202);
+}
+
+.latest-post-3 {
+  background-color: rgb(228, 228, 228);
+}
+
+.chef-fox {
+  display: flex;
+  height: 705px;
+}
+
+.chef-fox-2 {
+  flex-grow: 2;
+  height: 705px;
+  background-color: rgb(88, 88, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.chef-fox-1 {
+  flex-grow: 1;
+  height: 257px;
+  background-color: rgb(134, 134, 134);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.should-you {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(161, 161, 161);
+}
+
+.mail-fox {
+  height: 1020px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(83, 82, 82);
+  color: white;
+}
+
+.person {
+  width: 100%;
+  height: 360px;
+  background-color: rgb(224, 224, 224);
+}
+
+.person article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.com-links {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.com-links article {
+  width: 50%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-links-1 {
+  background-color: rgb(206, 206, 206);
+}
+
+.com-links-2 {
+  background-color: rgb(201, 201, 201);
+}
+
+.com-links-3 {
+  background-color: rgb(197, 197, 197);
+}
+
+.com-links-4 {
+  background-color: rgb(219, 219, 219);
+}
+
+.com-links-5 {
+  background-color: rgb(212, 212, 212);
+}
+
+.com-links-6 {
+  background-color: rgb(199, 199, 199);
+}
+
+.design {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 134, 134);
+  height: 415px;
+  color: white;
+}
+
+.footer-section {
+  background-color: rgb(83, 83, 83);
+  width: 100%;
+  height: 585px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer-section p {
+  height: 95px;
+}
+
+.footer-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1189px;
+}
+
+.first-list {
+  height: 250px;
+  font-size: 22px;
+}
+
+.second-list {
+  height: 200px;
+  align-content: center;
+}
+
+.footer-section ul li {
+  flex-grow: 1;
+  padding: 0 20px;
+  display: inline-block;
+}
