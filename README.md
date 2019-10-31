@@ -12,7 +12,7 @@ HeatMap of Smashing Magazine
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-URL to the live version of our project: [Heatmap](https://rawcdn.githack.com/mcastorena0316/smashing-magazine/6ca961330a51b5c17e451cefc9cbe6f4c6fe6872/index.html)
+URL to the live version of our project: [Heatmap](https://rawcdn.githack.com/mcastorena0316/smashing-magazine/323523fef8213db4265b411cdf5fa9bc6caaceb2/index.html)
 
 This a heatmap from the main page of The Smashing Magazine. The page we use for reference is [Smashing Magazine](https://www.smashingmagazine.com/)
 
