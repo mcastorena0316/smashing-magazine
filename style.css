@@ -255,11 +255,16 @@ header {
 
 .first-list {
   height: 250px;
+  font-size: 22px;
+}
+
+.second-list {
+  height: 200px;
+  align-content: center;
 }
 
 .footer-section ul li {
   flex-grow: 1;
   padding: 0 20px;
   display: inline-block;
-  font-size: 24px;
 }
